@@ -1,14 +1,14 @@
 TablicaNr1 = [
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_],
-    [_,_,_,_,_,_,_,_,_]
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0]
 ]
 
 def is_format_correct():
@@ -18,9 +18,9 @@ def is_number_in_row(tablica,row,collum,number):
 def find_empty_space(tablica):
     for row in tablica:
         for collum in tablica:
-            if tablica[row][collum] == "_" :
+            if tablica[row][collum] == "0" :
                 return ( row,collum)
 def solve_sudoku():
     pass
-def print_sudoku_board():
-    pass
+def print_sudoku_board(tablica):
+    
